@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.list-of-definitions{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color:#2E2F42;
+    font-weight: 500;
+}
+
+.my-contacts{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #434455;
+    font-weight: 400;
+}
+.main-head{
+    font-size: 56px;
+    line-height: 2.14;
+    background-color: #2E2F42;
+    color: #ffffff;
+    font-weight: 700;
+}
+.button{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.head-of-benefits{
+    font-size: 20px;
+    line-height: 1.2;
+    background-color: #ffffff;
+    color: #2E2F42;
+    font-weight: 500;
+}
+.benefits{
+    font-size: 16px;
+    line-height: 4.5;
+    background-color: #ffffff;
+    color: #434455;
+    font-weight: 400;
+}
+.team{
+    font-size: 36px;
+    line-height: 1.11;
+    background-color: #F4F4FD;
+    color: #2E2F42;
+    font-weight: 700;
+}
+.team-name{
+    font-size: 20px;
+    line-height: 1.2;
+    background-color: #ffffff;
+    color: #2E2F42;
+    font-weight: 500;
+}
+.team-position{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #434455;
+    font-weight: 400;
+}
+.description{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    font-weight: 400;
+}
