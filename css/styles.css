@@ -3,7 +3,15 @@ body{
     color: #434455;
     background-color: #ffffff;
 }
-
+.header-main-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
 .list-of-definitions{
     font-size: 16px;
     line-height: 1.5;
@@ -90,16 +98,15 @@ body{
     font-weight: 400;
     letter-spacing: 0.02em;
 }
-.header-main-logo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
+.our-team-portfolio{
 
+}
+.team-apps-name{
+
+}
+.team-apps-description{
+    
+}
 .footer-main-logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
