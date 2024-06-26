@@ -50,26 +50,31 @@ body{
     color: #434455;
     font-weight: 400;
 }
-.team{
+.our-team-members{
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     background-color: #F4F4FD;
     color: #2E2F42;
     font-weight: 700;
 }
-.team-name{
+.team-members-name{
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     background-color: #ffffff;
     color: #2E2F42;
     font-weight: 500;
 }
-.team-position{
+.team-member-position{
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
     color: #434455;
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 .description {
     font-size: 16px;
