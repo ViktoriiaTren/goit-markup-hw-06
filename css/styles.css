@@ -19,6 +19,9 @@ body{
     color:#2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
 
 .my-contacts-list{
@@ -28,6 +31,9 @@ body{
     color: #434455;
     font-weight: 400;
     font-style: normal;
+}
+.fon-main-head{
+    background-color: #2E2F42;
 }
 .main-head-name{
     font-size: 56px;
@@ -63,6 +69,12 @@ body{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
+}
+.members-team-fon{
+    background-color: #F4F4FD;
+}
+.list-of-members{
+    background-color: #ffffff;
 }
 .our-team-members{
     font-size: 36px;
@@ -116,6 +128,9 @@ body{
 .team-apps-description{
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.end-of-page{
+    background-color: #2E2F42;
 }
 .footer-main-logo{
     font-family: 'Raleway', sans-serif;
