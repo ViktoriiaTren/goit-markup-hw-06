@@ -55,8 +55,12 @@ body{
     font-weight: 500;
     cursor: pointer;
     letter-spacing: 0.04em;
-    link:hover: #404BBF;
-    link:focus: #404BBF;
+}
+.button, link:hover{
+    color: #404BBF;
+}
+.button, link:focus{
+    color: #404BBF
 }
 .head-of-benefits{
     font-size: 20px;
