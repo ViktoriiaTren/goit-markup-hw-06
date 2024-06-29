@@ -42,14 +42,14 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.email-of-company{
+.contacts-of-company{
     color: #434455;
     letter-spacing: 0.02em;
 }
-.email-of-company:hover{
+.contacts-of-company:hover{
     color: #404BBF;
 }
-.email-of-company:focus{
+.contacts-of-company:focus{
     color: #404BBF;
 }
 .fon-main-head{
@@ -75,10 +75,10 @@ body{
     letter-spacing: 0.04em;
 }
 .button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .head-of-benefits{
     font-size: 20px;
