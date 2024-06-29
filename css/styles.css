@@ -23,12 +23,11 @@ body{
     color:#2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
-    letter-spacing: 0.02em;
 }
-.link:hover{
+.link-of-definitons:hover{
     color: #404BBF;
 }
-.link:focus{
+.link-of-definitions:focus{
     color: #404BBF;
 }
 .my-contacts-list{
