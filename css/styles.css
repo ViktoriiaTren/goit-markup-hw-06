@@ -5,7 +5,7 @@ body{
 }
 
 .definition-of-company{
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 .header-main-logo {
     font-family: 'Raleway', sans-serif;
@@ -14,7 +14,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .list-of-definitions{
     font-size: 16px;
@@ -165,8 +165,8 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #F4F4FD; 
 }
 .name-of-logo{
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
