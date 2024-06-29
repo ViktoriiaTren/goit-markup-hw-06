@@ -56,6 +56,9 @@ body{
     cursor: pointer;
     letter-spacing: 0.04em;
 }
+.button:hover, .button:focus{
+    color: #404BBF;
+}
 .head-of-benefits{
     font-size: 20px;
     line-height: 1.2;
