@@ -26,7 +26,7 @@ body{
 }
 .link-of-definitions{
     color: #2E2F42;
-    
+
 }
 .list-of-definitions .link-of-definitions:hover{
     color: #404BBF;
@@ -41,6 +41,16 @@ body{
     color: #434455;
     font-weight: 400;
     font-style: normal;
+}
+.email-of-company{
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.email-of-company:hover{
+    color: #404BBF;
+}
+.email-of-company:focus{
+    color: #404BBF;
 }
 .fon-main-head{
     background-color: #2E2F42;
