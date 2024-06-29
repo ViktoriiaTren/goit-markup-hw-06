@@ -24,6 +24,10 @@ body{
     font-weight: 500;
     letter-spacing: 0.02em;
 }
+.link-of-definitions{
+    color: #2E2F42;
+    
+}
 .list-of-definitions .link-of-definitions:hover{
     color: #404BBF;
 }
@@ -63,7 +67,7 @@ body{
 .button:hover {
     color: #404BBF;
 }
-.button:focus{
+.button:focus {
     color: #404BBF;
 }
 .head-of-benefits{
