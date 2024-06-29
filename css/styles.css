@@ -42,14 +42,14 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.contacts-of-company{
+.contacts-of-company {
     color: #434455;
     letter-spacing: 0.02em;
 }
-.contacts-of-company:hover{
+.contacts-of-company:hover {
     color: #404BBF;
 }
-.contacts-of-company:focus{
+.contacts-of-company:focus {
     color: #404BBF;
 }
 .fon-main-head{
