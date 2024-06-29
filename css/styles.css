@@ -25,7 +25,12 @@ body{
     letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
-
+.list-of-definitions link:hover{
+    color: #404BBF;
+}
+.list-of-definitions link:focus{
+    color: #404BBF;
+}
 .my-contacts-list{
     font-size: 16px;
     line-height: 1.5;
