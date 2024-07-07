@@ -20,15 +20,27 @@ ol {
     margin: 0;
     padding: 0;
 }
+.img {
+    display: block;
+}
+.header-container-box{
+    border-bottom: 1px solid #e7e9fc;
+}
+.nav-container-box{
+    display: flex;
+    align-items: center;
+}
 .container {
     max-width: 1158px;
-    padding-left: 0;
+    padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 .definition-of-company{
     color: #2E2F42;
+    margin-right: 76px;
 }
 .header-main-logo {
     font-family: 'Raleway', sans-serif;
@@ -38,6 +50,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 .list-of-definitions{
     font-size: 16px;
@@ -56,6 +69,10 @@ ol {
 }
 .list-of-definitions .link-of-definitions:focus{
     color: #404BBF;
+}
+.adress-container-box{
+    display: flex;
+    gap: 40px;
 }
 .my-contacts-list{
     font-size: 16px;
@@ -77,8 +94,10 @@ ol {
 }
 .fon-main-head{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .main-head-name{
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     background-color: #2E2F42;
@@ -88,6 +107,11 @@ ol {
     letter-spacing: 0.02em;
 }
 .button{
+    border-radius: 4px;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -103,7 +127,21 @@ ol {
 .button:focus {
     background-color: #404BBF;
 }
+.benefits-list-box{
+    display: flex;
+    gap: 24px; 
+}
+.first-benefits-item{
+
+}
+.benefits-container-box{
+    padding: 120px 0;
+}
+.h-benefits-box{
+    display: none;
+}
 .head-of-benefits{
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     background-color: #ffffff;
@@ -120,12 +158,18 @@ ol {
     letter-spacing: 0.02em;
 }
 .members-team-fon{
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 .list-of-members{
     background-color: #ffffff;
 }
+.staff-container-box{
+    display: flex;
+    gap: 24px;
+}
 .our-team-members{
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -159,13 +203,24 @@ ol {
     font-weight: 400;
     letter-spacing: 0.02em;
 }
+.production-container-box{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .our-team-portfolio{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+.list-of-production{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .team-apps-name{
     font-weight: 500;
@@ -180,8 +235,10 @@ ol {
 }
 .end-of-page{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer-main-logo{
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -189,6 +246,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5; 
+    margin-bottom: 16px;
 }
 .name-of-logo{
     color: #F4F4FD;
