@@ -192,6 +192,8 @@ img {
     padding: 32px 0;
 }
 .team-members-name{
+    margin-bottom: 8px;
+    text-align: center;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -200,6 +202,7 @@ img {
     font-weight: 500;
 }
 .team-member-position{
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
@@ -246,8 +249,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.bank-app-container{
-    width: 464px;
+.name-app-container{
+    width: 360px;
 }
 .name-type-app{
     padding: 32px 16px;
