@@ -90,6 +90,8 @@ img {
     font-weight: 400;
     font-style: normal;
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 .contacts-of-company {
     color: #434455;
