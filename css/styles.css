@@ -20,9 +20,13 @@ ol {
     margin: 0;
     padding: 0;
 }
-.img {
+
+img {
     display: block;
+    width: 100%;
+    height: auto;
 }
+
 .header-container-box{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -59,6 +63,7 @@ ol {
     color:#2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .link-of-definitions{
     color: #2E2F42;
@@ -69,6 +74,11 @@ ol {
 }
 .list-of-definitions .link-of-definitions:focus{
     color: #404BBF;
+}
+.section-of-contacts{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 .adress-container-box{
     display: flex;
@@ -136,9 +146,6 @@ ol {
 }
 .benefits-container-box{
     padding: 120px 0;
-}
-.h-benefits-box{
-    display: none;
 }
 .head-of-benefits{
     margin-bottom: 8px;
@@ -238,7 +245,6 @@ ol {
     padding: 100px 0;
 }
 .footer-main-logo{
-    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -247,6 +253,9 @@ ol {
     text-transform: uppercase;
     color: #4D5AE5; 
     margin-bottom: 16px;
+}
+a {
+    display: inline-block;
 }
 .name-of-logo{
     color: #F4F4FD;
