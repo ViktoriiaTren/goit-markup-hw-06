@@ -188,9 +188,8 @@ img {
     color: #2E2F42;
     font-weight: 700;
 }
-.ark-guerrero-box{
+.mark-guerrero-box{
     padding: 32px 0;
-    
 }
 .team-members-name{
     font-size: 20px;
@@ -236,6 +235,7 @@ img {
     row-gap: 48px;
 }
 .team-apps-name{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -245,6 +245,15 @@ img {
 .team-apps-description{
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.bank-app-container{
+    width: 464px;
+}
+.name-type-app{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 .end-of-page{
     background-color: #2E2F42;
@@ -260,7 +269,7 @@ img {
     color: #4D5AE5; 
     margin-bottom: 16px;
 }
-a {
+.a {
     display: inline-block;
 }
 .name-of-logo{
