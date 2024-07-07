@@ -36,11 +36,8 @@ img {
 }
 .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+    padding: 0 15px;
+    margin: auto;
 }
 .definition-of-company{
     color: #2E2F42;
@@ -92,6 +89,7 @@ img {
     color: #434455;
     font-weight: 400;
     font-style: normal;
+    margin-left: auto;
 }
 .contacts-of-company {
     color: #434455;
@@ -106,6 +104,7 @@ img {
 .fon-main-head{
     background-color: #2E2F42;
     padding: 188px 0;
+    text-align: center;
 }
 .main-head-name{
     max-width: 496px;
@@ -213,10 +212,9 @@ img {
 .description {
     font-size: 16px;
     line-height: 1.5;
-    background-color: #2E2F42;
     color: #F4F4FD;
-    font-weight: 400;
     letter-spacing: 0.02em;
+    
 }
 .production-container-box{
     padding-top: 120px;
@@ -271,6 +269,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5; 
     margin-bottom: 16px;
+    display: inline-block;
 }
 .a {
     display: inline-block;
