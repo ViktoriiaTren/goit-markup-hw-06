@@ -20,7 +20,10 @@ ol {
     margin: 0;
     padding: 0;
 }
-
+.header-container-box .container{
+    display: flex;
+    justify-content: space-between;
+}
 img {
     display: block;
     width: 100%;
@@ -35,7 +38,15 @@ img {
 }
 .nav-container-box{
     display: flex;
+    gap: 40px;
     align-items: center;
+}
+.adress-contacts-box{
+    box-sizing: border-box;
+    display: flex;
+    font-style: italic;
+    unicode-bidi: isolate;
+    list-style-type: none;
 }
 .container {
     max-width: 1158px;
@@ -80,10 +91,15 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    list-style-type: none;
 }
-.adress-container-box{
+a.link{
+    text-decoration: none;
+}
+.adress-container-box {
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 .my-contacts-list{
     font-size: 16px;
@@ -109,7 +125,6 @@ img {
 .fon-main-head{
     background-color: #2E2F42;
     padding: 188px 0;
-    text-align: center;
 }
 .main-head-name{
     max-width: 496px;
@@ -144,7 +159,8 @@ img {
 }
 .benefits-list-box{
     display: flex;
-    gap: 24px; 
+    gap: 24px;
+    list-style-type: none;
 }
 .list-benefits-item{
 
@@ -181,6 +197,7 @@ img {
 .staff-container-box{
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 .our-team-members{
     margin-bottom: 72px;
@@ -240,6 +257,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 .team-apps-name{
     margin-bottom: 8px;
