@@ -164,7 +164,7 @@ a.link{
     list-style-type: none;
 }
 .list-benefits-item{
-
+    width: calc((100% - 72px) / 4);
 }
 .benefits-container-box{
     padding: 120px 0;
@@ -273,7 +273,7 @@ a.link{
     letter-spacing: 0.02em;
 }
 .name-app-container{
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     
 }
 .name-type-app{
