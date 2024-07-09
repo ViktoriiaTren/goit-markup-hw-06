@@ -42,12 +42,18 @@ img {
     align-items: center;
 }
 .adress-contacts-box{
-    box-sizing: border-box;
     display: flex;
-    font-style: italic;
+    font-style: normal;
     unicode-bidi: isolate;
     list-style-type: none;
     gap: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #434455;
+    font-weight: 400;
+    margin-left: auto;
+    align-items: center;
 }
 .container {
     max-width: 1158px;
@@ -102,17 +108,6 @@ a.link{
     display: flex;
     gap: 40px;
     list-style-type: none;
-}
-.my-contacts-list{
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #ffffff;
-    color: #434455;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
 }
 .contacts-of-company {
     color: #434455;
