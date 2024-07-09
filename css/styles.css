@@ -35,11 +35,16 @@ img {
 }
 .header-container-box{
     border-bottom: 1px solid #e7e9fc;
+    display: block;
+    unicode-bidi: isolate;
 }
 .nav-container-box{
     display: flex;
     gap: 40px;
     align-items: center;
+}
+.end-of-page .description{
+    max-width: 264px;
 }
 .adress-contacts-box{
     display: flex;
