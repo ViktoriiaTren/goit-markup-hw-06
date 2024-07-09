@@ -47,6 +47,7 @@ img {
     font-style: italic;
     unicode-bidi: isolate;
     list-style-type: none;
+    gap: 40px;
 }
 .container {
     max-width: 1158px;
