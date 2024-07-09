@@ -26,7 +26,10 @@ img {
     width: 100%;
     height: auto;
 }
-
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
 .header-container-box{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -143,7 +146,7 @@ img {
     display: flex;
     gap: 24px; 
 }
-.first-benefits-item{
+.list-benefits-item{
 
 }
 .benefits-container-box{
@@ -173,6 +176,7 @@ img {
 .list-of-members{
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    width: 342px;
 }
 .staff-container-box{
     display: flex;
@@ -189,7 +193,7 @@ img {
     color: #2E2F42;
     font-weight: 700;
 }
-.mark-guerrero-box{
+.name-position-box{
     padding: 32px 0;
 }
 .team-members-name{
@@ -251,6 +255,7 @@ img {
 }
 .name-app-container{
     width: 360px;
+    
 }
 .name-type-app{
     padding: 32px 16px;
