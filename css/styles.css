@@ -47,9 +47,8 @@ ul {
 .header-container-box{
     border-bottom: 1px solid #e7e9fc;
 }
-.a{
+a {
     text-decoration: none;
-    color: currentColor;
 }
 .nav-container-box{
     display: flex;
