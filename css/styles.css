@@ -211,6 +211,7 @@ a.link{
 }
 .members-team-fon{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .members-team-fon .our-team-members{
     margin-bottom: 72px;
@@ -261,7 +262,9 @@ a.link{
     letter-spacing: 0.02em;
     
 }
-
+.production-container-box{
+    padding: 120px 0 120px 0;
+}
 .production-container-box .our-team-portfolio{
     margin-bottom: 72px;
 }
