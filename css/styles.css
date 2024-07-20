@@ -46,6 +46,9 @@ ul {
 }
 .header-container-box{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 a {
     text-decoration: none;
@@ -148,7 +151,11 @@ a.link{
 .fon-main-head{
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: url(./image/bg-button.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-button.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main-head-name{
     font-size: 56px;
@@ -161,18 +168,19 @@ a.link{
 }
 .button{
     color: white;
-        background-color: #4D5AE5;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        padding: 16px 32px;
-        border: 0;
-        border-radius: 4px;
-        min-width: 169px;
-        display: block;
-        margin: 0 auto;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 4px;
+    min-width: 169px;
+    display: block;
+    margin: 0 auto;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
     background-color: #404BBF;
