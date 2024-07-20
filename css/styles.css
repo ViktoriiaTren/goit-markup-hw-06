@@ -148,6 +148,7 @@ a.link{
 .fon-main-head{
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: url(./image/bg-button.jpg);
 }
 .main-head-name{
     font-size: 56px;
