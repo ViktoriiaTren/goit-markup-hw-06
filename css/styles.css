@@ -245,6 +245,31 @@ a.link{
     font-weight: 400;
     letter-spacing: 0.02em;
 }
+.images-members-description{
+    padding: 32px 0;
+}
+.member-sm-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.sm-item-list{
+    width: 40px;
+    height: 40px;
+}
+.sm-item-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sm-item-link:hover,
+.sm-item-link:focus{
+    background-color: #404bbf;
+}
 .members-team-fon{
     background-color: #F4F4FD;
     padding: 120px 0;
