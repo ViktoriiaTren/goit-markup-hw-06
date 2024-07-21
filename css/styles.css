@@ -93,7 +93,11 @@ a {
     position: relative;
     color: #404bbf;
 }
-.header-main-logo::after{
+.firstlink-of-definitions{
+position: relative;
+color: #404bbf;
+}
+.firstlink-of-definitions::after{
     content: ;
     width: 100%;
     position: absolute;
@@ -364,12 +368,12 @@ a.link{
 }
 .social-media-p{
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
-        margin-bottom: 16px;
-margin-right: 540px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-right: 540px;
 }
 .list-of-sm{
     display: flex;
