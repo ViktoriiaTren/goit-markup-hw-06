@@ -465,3 +465,7 @@ a.link{
 .name-of-logo{
     color: #F4F4FD;
 }
+.end-of-page .container{
+    display: flex;
+    align-items: baseline;
+}
