@@ -93,10 +93,7 @@ a {
     position: relative;
     color: #404bbf;
 }
-.firstlink-of-definitions{
-position: relative;
-color: #404bbf;
-}
+
 .firstlink-of-definitions::after{
     content: "";
     width: 100%;
