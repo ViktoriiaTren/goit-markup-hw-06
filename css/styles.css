@@ -382,7 +382,7 @@ a.link{
 .img-app-list:hover .apps-overlay-text{
     transform: translateY(100%);
 }
-.all-apps-description{
+.apps-overlay-text{
     position: absolute;
     top: 0;
     font-size: 16px;
