@@ -379,7 +379,7 @@ a.link{
     overflow: hidden;
     transform: translateY(100%);
 }
-.img-app-list:hover .all-apps-description{
+.img-app-list:hover .apps-overlay-text{
     transform: translateY(100%);
 }
 .all-apps-description{
@@ -450,14 +450,14 @@ a.link{
     color: #fff;
     margin-bottom: 16px;
 }
-.social-media-p{
+.social-media-paragraph{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
     margin-right: 540px;
-        margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 .list-of-sm{
     display: flex;
