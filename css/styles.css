@@ -367,6 +367,19 @@ a.link{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.apps-overlay-text{
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    --color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .team-apps-description{
     line-height: 1.5;
     letter-spacing: 0.02em;
