@@ -374,7 +374,6 @@ a.link{
 .img-app-list{
     position: relative;
     overflow: hidden;
-    transform: translateY(100%);
 }
 .img-app-list:hover .apps-overlay-text{
     transform: translateY(100%);
