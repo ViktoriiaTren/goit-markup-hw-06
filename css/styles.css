@@ -684,3 +684,11 @@ font-size: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.comments-form{
+    margin-bottom: 16px;
+}
+..form-input-checked:checked .privacy .span-privacy{
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
