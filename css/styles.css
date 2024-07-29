@@ -612,8 +612,12 @@ font-size: 16px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-form:focus{
-    border-color: #4D5AE5;
+.inputvh:checked .span-privacy{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+.input-form:focus .person-icon{
     fill: #4D5AE5;
 }
 .close-button{
