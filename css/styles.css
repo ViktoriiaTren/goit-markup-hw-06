@@ -675,6 +675,7 @@ font-size: 16px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .policy-file{
     color: #4d5ae5; 
