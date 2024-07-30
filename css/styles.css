@@ -624,7 +624,11 @@ font-size: 16px;
 .input-form:focus + .person-icon{
     fill: #4D5AE5;
 }
-
+.inputpp + .span-privacy{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
 .close-button{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
