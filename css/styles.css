@@ -624,7 +624,7 @@ font-size: 16px;
 .input-form:focus + .person-icon{
     fill: #4D5AE5;
 }
-.inputpp + .privacy .span-privacy{
+.inputpp + .span-privacy{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
