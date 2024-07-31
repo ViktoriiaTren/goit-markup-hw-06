@@ -532,7 +532,8 @@ font-size: 16px;
 .button-form-type:hover, .button-form-type:focus{
     background-color: #404BBF;
 }
-.button-form {
+.button-forms {
+    fill: white;
     margin-left: 16px;
 }
 .mod-window-container{
