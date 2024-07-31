@@ -529,6 +529,9 @@ font-size: 16px;
     border: none;
     border-radius: 4px;
 }
+.button-form-type:hover, .button-form-type:focus{
+    background-color: #404BBF;
+}
 .button-form {
     margin-left: 16px;
 }
@@ -638,6 +641,7 @@ font-size: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #4D5AE5;
 }
 .text-area{
     width: 100%;
@@ -696,6 +700,9 @@ font-size: 16px;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-button:hover, .form-button:focus{
+    background-color: #404BBF;
 }
 .comments-form{
     margin-bottom: 16px;
